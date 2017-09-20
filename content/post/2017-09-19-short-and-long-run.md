@@ -13,3 +13,6 @@ tags:
 给蕊蕊的经济学。
 
 economics everyday.
+
+progress day by day.
+
