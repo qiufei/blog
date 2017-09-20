@@ -5,6 +5,8 @@ title = "菽不知"
 theme = "hugo-tranquilpeak-theme"
 paginate = 6
 canonifyurls = true
+
+# because I set publish dir as qiufei.github.io, so i delete the default public folder.
 publishDir = "qiufei.github.io"
 
 preserveTaxonomyNames = true
