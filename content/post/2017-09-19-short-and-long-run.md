@@ -10,4 +10,6 @@ tags:
   - economics
 ---
 
-给蕊蕊的经济学 
+给蕊蕊的经济学。
+
+economics everyday.
