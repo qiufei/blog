@@ -1,0 +1,129 @@
+baseurl = "https://qiufei.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "菽不知"
+theme = "hugo-tranquilpeak-theme"
+paginate = 6
+canonifyurls = true
+publishDir = "qiufei.github.io"
+
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Fei Qiu"
+  bio = "hfutqiufei@163.com"
+  job = "lecturer"
+  location = "China"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  gravatarEmail = "hfutqiufei@163.com"
+
+# Menu Configuration
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+
+[[menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+
+[[menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+  url = "/tags"
+
+[[menu.main]]
+  weight = 4
+  identifier = "archives"
+  name = "Archives"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  url = "/archives"
+
+[[menu.main]]
+  weight = 5
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/#about"
+
+[[menu.links]]
+  weight = 1
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/qiufei"
+
+[[menu.misc]]
+  weight = 1
+  identifier = "rss"
+  name = "RSS"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
+  url = "/index.xml"
+
+[params]
+
+
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = true
+
+  # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo".
+  # If false it will flat categories.
+  hierarchicalCategories = true
+
+  description = "糊里糊涂的怪蜀黍"
+  summary_length = 120
+
+  highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml"]
+  highlightjsTheme = "github"
+
+  MathJaxCDN = "//cdn.bootcss.com"
+  MathJaxVersion = "2.7.1"
+
+
+  sidebarBehavior = 2
+
+
+  coverImage = "cover.jpg"
+
+  # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
+  imageGallery = true
+
+  # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
+  thumbnailImage = true
+
+  # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
+  # Set this value to `right` if you have old posts to keep the old style on them
+  # and define `thumbnailImagePosition` on a post to overwrite this setting
+  thumbnailImagePosition = "bottom"
+
+  # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
+  # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
+  # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
+  autoThumbnailImage = true
+
+
+  [params.header.rightLink]
+    class = ""
+    icon = ""
+    url = "/#about"
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leaf on 菽不知2</title>
+    <link>/tags/leaf/</link>
+    <description>Recent content in Leaf on 菽不知2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/leaf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>经济学中长期与短期的区别</title>
+      <link>/2017/09/19/short-and-long-run/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/19/short-and-long-run/</guid>
+      <description>给蕊蕊的经济学</description>
+    </item>
+    
+  </channel>
+</rss>
