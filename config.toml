@@ -102,10 +102,10 @@ enableEmoji = true
   MathJaxVersion = "2.7.1"
 
 
-  sidebarBehavior = 2
+  sidebarBehavior = 1
 
 
-  coverImage = "cover.jpg"
+  coverImage = "yushan.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
