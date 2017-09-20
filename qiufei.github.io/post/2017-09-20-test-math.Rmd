@@ -1,0 +1,11 @@
+---
+title: test math
+author: Qiufei
+date: '2017-09-20'
+slug: test-math
+categories:
+  - math
+tags: []
+---
+
+$$\alpha+\beta=\frac{3}{\delta}$$

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 菽不知</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test math</title>
+      <link>/2017/09/20/test-math/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/20/test-math/</guid>
+      <description>\[\alpha+\beta=\frac{3}{\delta}\]</description>
+    </item>
     
     <item>
       <title>经济学中长期与短期的区别</title>
