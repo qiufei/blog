@@ -125,6 +125,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
   autoThumbnailImage = true
 
+  [[params.sharingOptions]]
+    name = "weixin"
+    icon = "fa-weixin "
+    url = "https://www.weixin.qq.com/sharer/sharer.php?u=%s"
+
 
   [params.header.rightLink]
     class = ""
