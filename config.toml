@@ -3,7 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "菽不知"
 theme = "hugo-tranquilpeak-theme"
-paginate = 6
+paginate = 7
 canonifyurls = true
 
 # because I set publish dir as qiufei.github.io, so i delete the default public folder.
@@ -124,11 +124,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
   # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
   autoThumbnailImage = true
-
-  [[params.sharingOptions]]
-    name = "weixin"
-    icon = "fa-weixin "
-    url = "https://www.weixin.qq.com/sharer/sharer.php?u=%s"
 
 
   [params.header.rightLink]
