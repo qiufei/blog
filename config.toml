@@ -1,10 +1,11 @@
-baseurl = "https://qiufei.github.io/"
+baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "菽不知"
+title = "菽不知说"
 theme = "hugo-tranquilpeak-theme"
 paginate = 7
 canonifyurls = true
+disqusShortname = "qiufei"
 
 # because I set publish dir as qiufei.github.io, so i delete the default public folder.
 publishDir = "qiufei.github.io"
@@ -83,7 +84,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "/index.xml"
 
 [params]
-
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = true

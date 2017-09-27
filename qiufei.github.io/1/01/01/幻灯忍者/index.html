@@ -1,0 +1,904 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.27.1 with theme Tranquilpeak 0.4.1-BETA">
+    <title>幻灯忍者</title>
+    <meta name="author" content="Fei Qiu">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+    <meta name="description" content="background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg) ??? 图片来源：Wikimedia Commons class: inverse, center, middle 出发！ 你好世界 首先从 Github 安装 xaringan 包： if (!requireNamespace(&quot;xaringan&quot;)) devtools::install_github(&quot;yihui/xaringan&quot;) ## Loading required namespace: xaringan – 除非你是六指琴魔，否则我建议安装 RStudio 编辑器，它会">
+    <meta property="og:description" content="background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg) ??? 图片来源：Wikimedia Commons class: inverse, center, middle 出发！ 你好世界 首先从 Github 安装 xaringan 包： if (!requireNamespace(&quot;xaringan&quot;)) devtools::install_github(&quot;yihui/xaringan&quot;) ## Loading required namespace: xaringan – 除非你是六指琴魔，否则我建议安装 RStudio 编辑器，它会">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="幻灯忍者">
+    <meta property="og:url" content="/1/01/01/%E5%B9%BB%E7%81%AF%E5%BF%8D%E8%80%85/">
+    <meta property="og:site_name" content="菽不知">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="菽不知">
+    <meta name="twitter:description" content="background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg) ??? 图片来源：Wikimedia Commons class: inverse, center, middle 出发！ 你好世界 首先从 Github 安装 xaringan 包： if (!requireNamespace(&quot;xaringan&quot;)) devtools::install_github(&quot;yihui/xaringan&quot;) ## Loading required namespace: xaringan – 除非你是六指琴魔，否则我建议安装 RStudio 编辑器，它会">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/092c1ad3a70aaac9b2674d02732f072a?s=640">
+    
+
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-fpbzgxsy0kgmdvyrj5ykkg6ratccrk3gocmaqn4xpcjywmv5dteilzucro4f.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">菽不知</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/092c1ad3a70aaac9b2674d02732f072a?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/092c1ad3a70aaac9b2674d02732f072a?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Fei Qiu</h4>
+        
+          <h5 class="sidebar-profile-bio">hfutqiufei@163.com</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/qiufei">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      幻灯忍者
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="0001-01-01T00:00:00Z">
+        
+  January 1, 1
+
+      </time>
+    
+    
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>background-image: url(<a href="https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg" class="uri">https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg</a>)</p>
+<p>???</p>
+<p>图片来源：<a href="https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg">Wikimedia Commons</a></p>
+<p>class: inverse, center, middle</p>
+<div class="section level1">
+<h1>出发！</h1>
+<hr />
+</div>
+<div class="section level1">
+<h1>你好世界</h1>
+<p>首先从 <a href="https://github.com/yihui/xaringan">Github</a> 安装 <strong>xaringan</strong> 包：</p>
+<pre class="r"><code>if (!requireNamespace(&quot;xaringan&quot;))
+  devtools::install_github(&quot;yihui/xaringan&quot;)</code></pre>
+<pre><code>## Loading required namespace: xaringan</code></pre>
+<p>–</p>
+<p>除非你是六指琴魔，否则我建议安装 <a href="https://www.rstudio.com/products/rstudio/">RStudio 编辑器</a>，它会让你做幻灯片做得飞起。</p>
+<ul>
+<li>从菜单 <code>File -&gt; New File -&gt; R Markdown -&gt; From Template -&gt; Ninja Presentation (Simplified Chinese)</code> 创建一个新文档；</li>
+</ul>
+<p>–</p>
+<ul>
+<li>点击 <code>Knit</code> 按钮编译文档；</li>
+</ul>
+<p>–</p>
+<ul>
+<li>或者点击 <a href="https://rstudio.github.io/rstudioaddins/">RStudio 插件</a><sup>*</sup> “Infinite Moon Reader” 在 RStudio 里实时预览幻灯片（每次你保存文档的时候，它会自动重新编译）；</li>
+</ul>
+<p>.footnote[[*] 如果你看不到模板或者插件，请参见 <a href="https://github.com/yihui/xaringan/issues/2">#2</a>，你的某些 R 包可能崩坏了，需要重新安装。]</p>
+</div>
+<div class="section level1">
+<h1>你好忍者</h1>
+<p>忍者不会停留在“你好世界”里，要用好这个 R 包，你需要了解：</p>
+<ol style="list-style-type: decimal">
+<li><p>JavaScript 库 <a href="https://remarkjs.com">remark.js</a> 的语法；</p></li>
+<li><p><strong>xaringan</strong> 包中的选项;</p></li>
+</ol>
+<p><strong>xaringan</strong> 将 R Markdown 的查克拉注入了 <strong>remark.js</strong>。浏览器中的幻灯片是 remark.js 渲染出来的，而它的 Markdown 源文档是从 R Markdown 生成的（实际上主要是 <strong>knitr</strong>）。</p>
+<hr />
+</div>
+<div id="remark.js" class="section level1">
+<h1>remark.js</h1>
+<p>关于 remark.js 的用法可参考它的<a href="https://remarkjs.com">首页</a>，由于伟大的墙，你可能打不开这个页面（因为里面用了 Google 字体）。不过 <a href="https://github.com/gnab/remark/wiki">remark.js 的维基页面</a> 已经有足够的信息了，你需要学习：</p>
+<ul>
+<li><p>如何创建一页新的片子，主要是 Markdown 语法<sup>*</sup> 以及单页片子的属性设置；</p></li>
+<li><p>如何排版，例如文本对齐；</p></li>
+<li><p>如何设置整个幻灯片的选项（代码高亮样式之类的）；</p></li>
+<li><p>怎样播放幻灯片（快捷键，按 <code>h</code> 键基本就知道了）；</p></li>
+</ul>
+<p>.footnote[[*] 它和 Pandoc Markdown 语法不同，不过对做幻灯片而言，简单的语法可能也足够了。]</p>
+<p>class: inverse, middle, center</p>
+</div>
+<div id="xaringan-" class="section level1">
+<h1>xaringan 包的使用</h1>
+<hr />
+</div>
+<div id="xaringan" class="section level1">
+<h1>xaringan</h1>
+<p><strong>xaringan</strong> 包提供了一个 R Markdown 输出格式 <code>xaringan::moon_reader</code>，你可以在 R Markdown 文档的元数据中使用它，例：</p>
+<pre class="yaml"><code>---
+title: &quot;啧啧啧，厉害啊&quot;
+author: &quot;张三&quot;
+date: &quot;2016年12月12日&quot;
+output:
+  xaringan::moon_reader
+    nature:
+      autoplay: 30000
+      highlightStyle: github
+---</code></pre>
+<p>欲知所有可能的选项，参见 R 帮助文档 <code>?xaringan::moon_reader</code>。</p>
+<hr />
+</div>
+<div id="remark.js--xaringan-" class="section level1">
+<h1>remark.js 与 xaringan 的区别</h1>
+<p>remark.js （左）与 <strong>xaringan</strong> （右）：</p>
+<p>.pull-left[ 1. 需要一个 HTML 容器文件；</p>
+<ol style="list-style-type: decimal">
+<li><p>只能用 Markdown；</p></li>
+<li><p>若想自动播放幻灯片需要写 JavaScript；</p></li>
+<li><p>需手工配置 MathJax；</p></li>
+<li><p>用 <code>*</code> 高亮一行代码；</p></li>
+<li><p>编辑 Markdown 之后需要刷新浏览器看结果； ]</p></li>
+</ol>
+<p>.pull-right[ 1. 用 R Markdown 文档生成幻灯片；</p>
+<ol style="list-style-type: decimal">
+<li><p>Markdown 里可以嵌入 R 代码；</p></li>
+<li><p>可用 <code>autoplay</code> 选项自动播放；</p></li>
+<li><p>MathJax 无需特别配置；<sup>*</sup></p></li>
+<li><p>用 <code>{{}}</code> 高亮一行代码;</p></li>
+<li><p>用 RStudio 插件“Infinite Moon Reader”自动预览幻灯片； ]</p></li>
+</ol>
+<p>.footnote[[*] 下一页有数学公式例子。]</p>
+<hr />
+</div>
+<div class="section level1">
+<h1>数学公式</h1>
+<p>数学公式用 LaTeX 语法写在一对美元符号中间，例如 $+$ 会生成 <span class="math inline">\(\alpha+\beta\)</span>。若要将公式单独显示为一个段落，可以用一对双重美元符号：</p>
+<pre><code>$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$</code></pre>
+<p><span class="math display">\[\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i\]</span></p>
+<p>局限性：</p>
+<ol style="list-style-type: decimal">
+<li><p>公式的源代码只能写在一行上，不能换行；双重美元符号内的公式允许换行，但条件是起始标记 <code>$$</code> 必须在一行的最开头（前面不能有任何字符，后面必须跟一个不是空格的字符），结束标记 <code>$$</code> 必须在一行的最末尾（前面必须是一个非空格的字符，后面不能有任何字符）；</p></li>
+<li><p>起始美元符号后以及结束美元符号前不能有空格，否则不会被识别为公式；</p></li>
+</ol>
+<hr />
+</div>
+<div id="r-" class="section level1">
+<h1>R 代码</h1>
+<pre class="r"><code># 一个无聊的回归模型
+fit = lm(dist ~ 1 + speed, data = cars)
+coef(summary(fit))</code></pre>
+<pre><code>#               Estimate Std. Error   t value     Pr(&gt;|t|)
+# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
+# speed         3.932409  0.4155128  9.463990 1.489836e-12</code></pre>
+<pre class="r"><code>dojutsu = c(&#39;地爆天星&#39;, &#39;天照&#39;, &#39;加具土命&#39;, &#39;神威&#39;, &#39;須佐能乎&#39;, &#39;無限月読&#39;)
+grep(&#39;天&#39;, dojutsu, value = TRUE)</code></pre>
+<pre><code># [1] &quot;地爆天星&quot; &quot;天照&quot;</code></pre>
+<hr />
+</div>
+<div id="r-" class="section level1">
+<h1>R 图形</h1>
+<pre class="r"><code>par(mar = c(4, 4, 1, .1))
+plot(cars, pch = 19, col = &#39;darkgray&#39;, las = 1)
+abline(fit, lwd = 2)</code></pre>
+<p><img src="/post/Ppt/Ppt_files/figure-html/cars-1.svg" width="672" /></p>
+<hr />
+</div>
+<div id="html-" class="section level1">
+<h1>HTML 控件</h1>
+<p>我没有仔细测试 <a href="https://htmlwidgets.org">HTML 控件</a>，祝你好运。下一页上有两个例子，一个地图，一个表格，目测貌似可用。</p>
+<p>目前也不支持 Shiny 模式（即 <code>runtime: shiny</code>）。还是别把你的幻灯片搞辣么复杂吧。</p>
+<hr />
+<pre class="r"><code>library(leaflet)
+leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)</code></pre>
+<hr />
+<pre class="r"><code>DT::datatable(
+  head(iris, 10),
+  fillContainer = FALSE, options = list(pageLength = 8)
+)</code></pre>
+<hr />
+</div>
+<div class="section level1">
+<h1>一些小技能</h1>
+<ul>
+<li><p>“Infinite Moon Reader”插件默认情况下会锁住你的 R 进程，有它没你，有你没它。你可以设置一个选项，让它一边儿凉快去：</p>
+<pre class="r"><code>options(servr.daemon = TRUE)</code></pre>
+<p>你可以把这个设置写在 <code>~/.Rprofile</code> 文件中，这样你将来所有 R 进程都不会被这个插件挡住去路。</p>
+<p>这事情背后的魔法在 <a href="https://github.com/yihui/servr"><strong>servr</strong></a> 包中。</p></li>
+</ul>
+<p>–</p>
+<ul>
+<li><p>别忘了玩一下 <code>yolo</code> 选项，如：</p>
+<pre class="yaml"><code>output:
+  xaringan::moon_reader:
+    yolo: 3</code></pre>
+<p>它会随机显示 Karl Broman 的照片；这里地方太小，写不下故事的来龙去脉。</p></li>
+</ul>
+<hr />
+</div>
+<div id="-1" class="section level1">
+<h1>一些小技能</h1>
+<ul>
+<li><p><code>nature</code> 下面的 <code>autoplay</code> 选项可以用来自动播放幻灯片，它的取值是毫秒，例如每 30 秒播放一张片子：</p>
+<pre class="yaml"><code>output:
+  xaringan::moon_reader:
+    nature:
+      autoplay: 30000</code></pre></li>
+</ul>
+<p>–</p>
+<ul>
+<li><p><code>nature</code> 下面的 <code>countdown</code> 选项可以为每一页幻灯片添加一个（倒数）计时器，取值同样为毫秒，例如每一页片子都用 60 秒倒计时：</p>
+<pre class="yaml"><code>output:
+  xaringan::moon_reader:
+    nature:
+      countdown: 60000</code></pre></li>
+</ul>
+<hr />
+</div>
+<div id="-2" class="section level1">
+<h1>一些小技能</h1>
+<ul>
+<li><p>选项 <code>highlightLines: true</code> 可以让以 <code>*</code> 开头或者双重大括号 <code>{{ }}</code> 里面的代码被高亮出来；</p>
+<pre class="yaml"><code>output:
+  xaringan::moon_reader:
+    nature:
+      highlightLines: true</code></pre>
+<p>下一页我们举两个栗子。</p></li>
+</ul>
+<hr />
+</div>
+<div id="-3" class="section level1">
+<h1>一些小技能</h1>
+<p>.pull-left[ 以 <code>*</code> 开头的代码：</p>
+<pre><code>```r
+if (TRUE) {
+** message(&quot;敲黑板！划重点！&quot;)
+}
+```</code></pre>
+<p>输出：</p>
+<pre class="r"><code>if (TRUE) {
+* message(&quot;敲黑板！划重点！&quot;)
+}</code></pre>
+<p>因为它不是合法的 R 代码，所以不能作为 R 代码段来写，只能用三个反引号直接跟 r（就知道你没听懂）。 ]</p>
+<p>.pull-right[ 用 <code>{{}}</code> 包裹的代码：</p>
+<pre><code>```{r tidy=FALSE}
+if (TRUE) {
+*{{ message(&quot;敲黑板！划重点！&quot;) }}
+}
+```</code></pre>
+<p>输出：</p>
+<pre class="r"><code>if (TRUE) {
+{{ message(&quot;敲黑板！划重点！&quot;) }}
+}</code></pre>
+<pre><code>## 敲黑板！划重点！</code></pre>
+<p>这是合法的 R 代码，所以你可以真的运行它。 ]</p>
+<hr />
+</div>
+<div id="css" class="section level1">
+<h1>CSS（层叠样式表）</h1>
+<p><code>xaringan::moon_reader</code> 的所有选项中，最强的魔法在 <code>css</code> 选项上，它是自定义幻灯片样式的关键。如果你不懂 CSS 的话，我强烈建议你学习一些 CSS 的基础知识。</p>
+<p>对中文幻灯片，<strong>xaringan</strong> 包中的默认 CSS 文件在<a href="https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan_zh-CN/skeleton/zh-CN.css">这里</a>，你可以在它的基础上改装，也可以直接定义全新的 CSS 样式。</p>
+<hr />
+</div>
+<div id="css-1" class="section level1">
+<h1>CSS（层叠样式表）</h1>
+<p>举个栗子。比如你想将一段文字的颜色改为红色，你可以定义一个 CSS 类，如：</p>
+<pre class="css"><code>.red {
+  color: #FF0000;
+}</code></pre>
+<p>我们把这段代码保存在一个 CSS 文件中，如 <code>extra.css</code>（假设它跟你的 R Markdown 文件在同一文件夹下），然后通过 <code>css</code> 选项将它引入：</p>
+<pre class="yaml"><code>output:
+  xaringan::moon_reader:
+    css: [&quot;zh-CN.css&quot;, &quot;extra.css&quot;]</code></pre>
+<p>其中 <code>zh-CN.css</code> 是本包已经为你提供的 CSS 样式文件（你可选择用或不用）。</p>
+<p>现在在 R Markdown 中你就可以用 <code>.red[]</code> 来标记一段文字为红色，如 <code>.red[我是红色的]</code>。</p>
+<hr />
+</div>
+<div id="css-2" class="section level1">
+<h1>CSS（层叠样式表）</h1>
+<p>如果想在墙内用 Google 字体的话，可以试试这个 <a href="https://google-webfonts-helper.herokuapp.com/fonts">google-webfonts-helper</a> 应用，它会把字体下载到本地并生成相应的 CSS 文件。也可以考虑 360 的 <a href="http://libs.useso.com">CDN 服务</a>。</p>
+<p>可惜中文不像英文，没有很新奇酷炫的网络字体，只能靠你电脑上的字体硬撑了。</p>
+<p>background-image: url(<a href="https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg" class="uri">https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg</a>) background-size: 100px background-position: 90% 8%</p>
+</div>
+<div class="section level1">
+<h1>写轮眼</h1>
+<p><strong>xaringan</strong> 这个名字来源于火影中的写轮眼 <strong>Sharingan</strong>。<sup>1</sup> 写轮眼有两大能力：</p>
+<ul>
+<li><p>洞察眼</p></li>
+<li><p>催眠眼</p></li>
+</ul>
+<p>其实做演示就是将自己的洞见传递给听众；好的演讲通常有催眠效果，因为它可以深度震撼人心。<sup>2,3</sup></p>
+<p>.footnote[ [1] 我把 Sh 换成 X 了，因为几乎没有一个歪果仁读对过我的姓。当然主要原因还是 xaringan 搜索起来更容易被搜到。</p>
+<p>[2] 糟糕的演讲也可以催眠听众，但显然这两种催眠完全不同。</p>
+<p>[3] 我之所以选择了 remark.js 框架，就是因为它可以设置背景图。对我而言，在一页片子上整页显示一幅图最能表达震撼的视觉效果，现有的 R Markdown 幻灯片框架都缺乏这个功能，不开森。当时我发现 remark.js 之后真的是激动地不要不要的，等了一个月才抽出空来把这个包写出来。 ]</p>
+<hr />
+</div>
+<div class="section level1">
+<h1>火影术语</h1>
+<p>简单介绍一下这个包里那些奇怪的术语的由来：</p>
+<ul>
+<li><p><a href="http://naruto.wikia.com/wiki/Sharingan">写轮眼</a>（包名，已解释）</p></li>
+<li><p><a href="http://naruto.wikia.com/wiki/Moon_Reader">月读</a>（我希望这个 R Markdown 格式 <code>moon_reader</code> 能将听众控制在幻象中）</p></li>
+<li><p><a href="http://naruto.wikia.com/wiki/Chakra">查克拉</a>（月读的参数之一 <code>chakra</code>，意思是 remark.js 的路径，它是支撑幻灯片的核心动力）</p></li>
+<li><p><a href="http://naruto.wikia.com/wiki/Nature_Transformation">性质变化</a>（月读的参数之一 <code>nature</code>，意思是通过设置选项改变查克拉的性质）</p></li>
+<li><p><a href="http://naruto.wikia.com/wiki/Infinite_Tsukuyomi">无限月读</a>（函数 <code>infinite_moon_reader()</code> 开启一个服务器不断刷新更新后的幻灯片，RStudio 插件背后对应的就是这个函数）</p></li>
+<li><p><a href="http://naruto.wikia.com/wiki/Summoning_Technique">通灵术</a>（<code>summon_remark()</code> 从网络上把 remark.js 通灵到本地）</p></li>
+</ul>
+<p>月读这个忍术有点邪恶，不过你就当不知道吧。</p>
+<hr />
+</div>
+<div class="section level1">
+<h1>结印</h1>
+<p>使用本包单手就可以结印，按键 <code>h</code> 或者 <code>?</code> 之后就可以看见所有结印手势，例如 <code>p</code> 进入演讲者模式（可看见写给自己的注释，比如提醒自己要讲的笑话），<code>c</code> 复制幻灯片到新窗口；演讲时可以在自己面前的屏幕上显示演讲者模式，把新窗口中正常的幻灯片拖到大屏幕投影上给观众看。</p>
+<p>.center[<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg" />]</p>
+<p>???</p>
+<p>嗯，我们来讲一个不容易看懂的冷笑话。</p>
+<div class="figure">
+<img src="https://img-9gag-fun.9cache.com/photo/aKBrORN_700b.jpg" />
+
+</div>
+<hr />
+<p>class: center, middle</p>
+</div>
+<div class="section level1">
+<h1>蟹蟹</h1>
+<p>本幻灯片由 R 包 <a href="https://github.com/yihui/xaringan"><strong>xaringan</strong></a> 生成；</p>
+<p>查克拉来自于 <a href="https://remarkjs.com">remark.js</a>、<a href="http://yihui.name/knitr"><strong>knitr</strong></a>、以及 <a href="https://rmarkdown.rstudio.com">R Markdown</a>。</p>
+</div>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2008/03/24/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/" data-tooltip="It Is Sheer Good Fortune To Miss Somebody Long Before They Leave You">
+              
+                <i class="fa fa-angle-left"></i>
+                <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+              </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </li>
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2017 Fei Qiu. All Rights Reserved
+  </span>
+</footer>
+
+        
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2008/03/24/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/" data-tooltip="It Is Sheer Good Fortune To Miss Somebody Long Before They Leave You">
+              
+                <i class="fa fa-angle-left"></i>
+                <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+              </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </li>
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/092c1ad3a70aaac9b2674d02732f072a?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Fei Qiu</h4>
+    
+      <div id="about-card-bio">hfutqiufei@163.com</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        lecturer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        China
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/09/19/short-and-long-run/">
+                <h3 class="media-heading">经济学中长期与短期的区别</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">给蕊蕊的经济学。 economics everyday. progress day by day. 🍐 山大 🐶 \[e^{i\theta}=\cos\theta+i\sin\theta\]</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2017/02/11/%E4%B9%90%E5%9C%A8%E5%85%B6%E4%B8%AD/">
+                <h3 class="media-heading">乐在其中</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Feb 2, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">昨晚看《The Universe in Zero Words: The Story of Mathematics as Told through Equations》这本书看到凌晨。 其中有句话特别赞同： it is a good thing that Hilbert&rsquo;s vision turned out to be flawed, because he was proposing to rescue mathematics by killing it. If</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2016/06/15/%E5%90%91%E8%BF%87%E5%8E%BB%E7%9A%84%E6%97%B6%E5%85%89%E8%87%B4%E6%95%AC/">
+                <h3 class="media-heading">向过去的时光致敬</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2016
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">好久没有写博客了，今天给博客换了个皮肤，所以顺便来说几句。 以前我对文字很认真，这可以从之前博客的介绍页看出来。 过去的时光，我都很认真，也比较</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2013/09/28/%E5%8D%B0%E8%B1%A1%E9%9D%92%E6%98%A5/">
+                <h3 class="media-heading">印象青春</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2013
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">少年打马江湖行 草木青青庭院深 杨梅酒里问究竟 不是此程下一程 宁波产杨梅，慈溪有用杨梅泡酒喝的习惯，杨梅酒有调五脏、涤肠胃的功效。我不会喝酒，但是</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2012/06/21/%E6%AF%95%E4%B8%9A%E6%84%9F%E8%A8%80%E8%A2%AB%E6%9E%AA%E6%AF%99%E7%89%88/">
+                <h3 class="media-heading">毕业感言（被枪毙版）</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2012
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">各位老师、各位同学: 上午好！很高兴能有这个机会在这里发言。 我在社科院求学五年，五年里我最大的收获是得到了一份安定与自信的心态。所谓“安定与自</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2010/09/30/%E6%B5%81%E6%B0%B4%E4%BB%8A%E6%97%A5-%E6%98%8E%E6%9C%88%E4%BB%96%E6%9C%9D/">
+                <h3 class="media-heading">流水今日 明月他朝</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2010
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">成语有庖丁解牛。 说一刀下去，筋骨分离，不带一丝粘滞。 看古文的说法，似乎血都不流的。我一直怀疑这故事的真实性。 谁在我左右，谁见我漂流。 万水千山</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2010/09/02/%E5%8F%88%E5%BC%80%E5%AD%A6%E4%BA%86/">
+                <h3 class="media-heading">又开学了</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2010
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">由于我经常发现自己所想的是错的，所以我已很少能断定什么，不过我确信一点，就是，我是爱这个世界的。 不过，我这人不信教，所以这一想法跟宗教情怀无</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2009/08/01/%E6%9D%A8%E5%BA%B7%E4%B8%89%E9%83%A8%E6%9B%B2%E4%BA%8C%E9%9D%92%E9%BE%99%E9%95%87%E8%AE%B0%E4%BA%8B/">
+                <h3 class="media-heading">杨康三部曲（二）：青龙镇记事</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2009
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">滚滚长江，漱口水。 潇潇雨歇，洗洗睡。 恋恋晨风，谁把谁。 朗朗乾坤，尘世美。 顺着中国武士隐没的历史，这次要讲的是他们慢慢老去的故事。故事由一个清</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2009/04/11/%E6%88%91%E9%82%A3%E9%AD%82%E7%89%B5%E6%A2%A6%E7%BB%95%E7%9A%84%E4%B9%9D%E5%8F%B7%E7%BA%BF/">
+                <h3 class="media-heading">我那魂牵梦绕的九号线</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2009
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">传说爱的表现之一就是为之辗转反侧，夜不能寐。 这么说来，我是爱九号线的。 千万年后的我，本早已忘了盘古开天辟地之时的雄壮与威武。是九号线，她夜以</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="/2008/12/19/%E6%9D%A8%E5%BA%B7%E4%B8%89%E9%83%A8%E6%9B%B2%E4%B8%80%E4%B8%AD%E5%9B%BD%E6%AD%A6%E5%A3%AB%E9%9A%90%E9%BB%98%E7%9A%84%E5%8E%86%E5%8F%B2/">
+                <h3 class="media-heading">杨康三部曲（一）：中国武士隐默的历史</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2008
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">杨康 当杨过躺在桃花岛百无聊奈的背心法口诀的时候，他是不会想到很多年前他老子杨康，也曾心神不宁的坐在学堂里听老先生讲学。 大宋朝科教兴国，纪律严</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         13 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('/images/yushan.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha256-IFHWFEbU2/+wNycDECKgjIRSirRNIDp2acEB5fvdVRU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js" integrity="sha256-+mpyNVJsNt4rVXCw0F+pAOiB3YxmHgrbJsx4ecPuUaI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js" integrity="sha256-vMxgR/7FtLovVA+IPrR7+xTgIgARH7y9VZQnmmi0HDI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js" integrity="sha256-N0qFUh7/9vLvia87dDndewmsgsyYoNkdA212tPc+2NI=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+  
+    
+  
+
+
+
+    
+  </body>
+</html>
+
+
