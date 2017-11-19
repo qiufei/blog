@@ -153,7 +153,8 @@ http://xueshu.baidu.com/u/biye
 
 这个是免费的，不需要账号密码
 
-![](../images/paper/baidu.png)
+![](../images/baidu.png)
+
 
 在上面输入关键词后，就能找到跟你论文有关的经典文章。
 
@@ -178,7 +179,8 @@ http://www.cnki.net
 
 
 
-![](../images/paper/ebsco.png)
+![](../images/ebsco.png)
+
 
 
 其次是Taylor & Francis和 Springer Link 两个数据库。
