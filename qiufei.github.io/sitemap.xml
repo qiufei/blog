@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/11/09/2014/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <loc>/2018/02/10/%E4%BA%BA%E9%97%B4%E7%83%9F%E7%81%AB/</loc>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2017/09/19/short-and-long-run/</loc>
     <lastmod>2017-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,10 +63,6 @@
   </url>
   
   <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
     <loc>/archives/</loc>
     <priority>0</priority>
   </url>
@@ -82,44 +73,19 @@
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/leaf/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/one-lesson-one-day/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/work/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
