@@ -9,14 +9,14 @@
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
         <section class="postShorten-group main-content-wrap">
-          {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+          {{/* Iterate only over pages of the same type as this section. */}}
+          {{ $paginator := .Paginate (where .Data.Pages "Type" .Type) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}
           {{ partial "pagination.html" . }}
         </section>
         {{ partial "footer.html" . }}
-	{{ partial "footer_mathjax" . }}
       </div>
     </div>
 {{ partial "foot.html" . }}

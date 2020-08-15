@@ -2,7 +2,9 @@ baseurl = "https://qiufei.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "理想鞅输运"
+
 theme = "hugo-tranquilpeak-theme"
+#theme = "hugo-lithium-theme"
 paginate = 7
 canonifyurls = true
 disqusShortname = "qiufei"
@@ -32,6 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   location = "China"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "hfutqiufei@hotmail.com"
+  homepage = "https://qiufei.github.io"
 
 # Menu Configuration
 [[menu.main]]
@@ -134,11 +137,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Twitter"
     icon = "fa-twitter"
     url = "https://twitter.com/intent/tweet?text=%s"
-
-  [[params.sharingOptions]]
-    name = "Google+"
-    icon = "fa-google-plus"
-    url = "https://plus.google.com/share?url=%s"
 
 
   [params.header.rightLink]
