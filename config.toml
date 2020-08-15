@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "菽不知说"
+title = "理想鞅输运"
 theme = "hugo-tranquilpeak-theme"
 paginate = 7
 canonifyurls = true
