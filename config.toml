@@ -95,7 +95,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "糊里糊涂的怪蜀黍"
+  description = "qiufei's words"
   summary_length = 120
 
   highlightjsVersion = "9.11.0"
@@ -110,7 +110,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   sidebarBehavior = 1
 
 
-  coverImage = "yushan.jpg"
+  coverImage = "images/yushan.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true

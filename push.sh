@@ -27,3 +27,6 @@ git push
 
 # finally
 echo "blog数据已经更新到github！"
+
+
+## 如果网站预览不正确，更新一下theme试试
