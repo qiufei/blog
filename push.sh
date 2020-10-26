@@ -1,6 +1,6 @@
 #!/bin/sh
 
-## 之前以为要发布Blog这个repo，其实不管是netlify还是github，都只要qiufei.github.io这个repo
+# Blog这个repo是netlify生成博客用的
  cd .
 
  git add --all
