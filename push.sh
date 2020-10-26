@@ -1,17 +1,17 @@
 #!/bin/sh
 
+## 之前以为要发布Blog这个repo，其实不管是netlify还是github，都只要qiufei.github.io这个repo
+ cd .
 
-cd .
+ git add --all
 
-git add --all
+ git commit -a -m " add blog"
 
-git commit -a -m " add blog"
-
-git push
+ git push
 
 # finally
-echo "blog数据已经更新到netlify！"
-
+ echo "blog数据已经更新到netlify！"
+## ## ## ## ## ## ## ##
 
 # 在blog这个git内，再生成一个qiufei.github.io的git
 # 从网站下载空的qiufei.github.io.git到blog文件夹下，
